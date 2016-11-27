@@ -34,8 +34,7 @@ names <- as.character(names)
 names(data_test) <- names ; names(data_train) <- names
 
 #Merges the training and the test sets to create one data set.
-library(plyr)
-merged_data <- merged_data <- rbind(data_train,data_test)
+merged_data <- rbind(data_train,data_test)
 
 
 #Extracts only the measurements on the mean and standard deviation for each measurement.
