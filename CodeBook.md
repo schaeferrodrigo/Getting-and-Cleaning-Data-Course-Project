@@ -13,7 +13,7 @@
 </p>
 
 
-<h3> Current variables' names </h3>
+<h3> Current variable names </h3>
 
 <ul>
 <li>
@@ -25,8 +25,24 @@ The other variables: Their name is composed like  AB-C-D:
 <li>A = time or freq -represent if the record is in funtion the time or the frequency</li>
 <li> B = LinearAcceleration, AngularVelocity, GravityAcc </li>
 <li> C = sd or mean. It represents what was measured of each variable original, the mean or standard desviation (sd)</li>
-<li> D = the axes of movement </li>
+<li> D = the axes of movement - X , Y or Z (Cartesian axes) </li>
 </ul>
 </ul>
 
+<h3> Processing the Data Set </h3>
+<p> The training and and tes data sets were joint in a unique data frame. 
+Besides this we take just the variables that measures the mean and the standard desviation of each record.
+A new variable describing the activity was added to Data Set. Moreove, the variable names were simplified.
+</p>
 
+<h3> Final data set</h3>
+
+<p>
+We compute the mean of each variable (collumn) for each activity.
+The data frame obtained can be accessed in <a href="https://github.com/schaeferrodrigo/Getting-and-Cleaning-Data-Course-Project/blob/master/Mean_data.csv" > Mean_data </a>.
+</p>
+
+
+</p>
+
+</p>
