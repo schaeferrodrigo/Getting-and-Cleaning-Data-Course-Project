@@ -81,12 +81,4 @@ mean<- as.data.frame(mean)
 mean$activities <- act
 names(mean) <- names(selcted_data)
 
-sd <- c()
-for (i in 1:6){data_1 <- selcted_data[selcted_data$activities==act[i],1:66]
-x <- sapply(data_1, sd)
-sd<- rbind(sd,x)
-}
-sd <- as.data.frame(sd)
-sd$activities <- act
-names(sd) <- names(selcted_data)
 
